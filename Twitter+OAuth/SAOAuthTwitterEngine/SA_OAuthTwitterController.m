@@ -357,7 +357,7 @@ Ugly. I apologize for its inelegance. Bleah.
 		[self denied];
 		return NO;
 	}
-	if (navigationType != UIWebViewNavigationTypeOther) _webView.alpha = 0.1;
+	if (navigationType != UIWebViewNavigationTypeOther) _webView.alpha = 0.0;
 	return YES;
 }
 
